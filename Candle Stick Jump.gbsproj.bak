@@ -10816,7 +10816,7 @@
                         "variable": "17",
                         "value": {
                             "type": "number",
-                            "value": 3
+                            "value": 4
                         },
                         "__collapse": false
                     }
@@ -46958,6 +46958,27 @@
                     }
                 },
                 {
+                    "id": "aaba07a5-833f-41e9-b6ad-e9fa7f444a19",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "5c40bce2-2891-47c8-9593-c13b40362948"
+                    }
+                },
+                {
+                    "id": "024c2c52-f7a9-4944-bae5-50565939db0d",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "280d3c44-a8df-49b5-8ae9-71f5c173247f"
+                    }
+                },
+                {
+                    "id": "b35219ac-9ab7-482e-8586-f9ae1d82fb8b",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "737f4efc-037c-4d02-8f3c-0b1ab24c6707"
+                    }
+                },
+                {
                     "id": "219e096d-ae14-4e9b-83bb-bc1db0c64090",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
@@ -46970,7 +46991,7 @@
                     "command": "EVENT_IF_VALUE",
                     "args": {
                         "variable": "17",
-                        "operator": ">=",
+                        "operator": "==",
                         "comparator": 3,
                         "__collapseElse": false
                     },
@@ -46994,7 +47015,7 @@
                                 "id": "46bf1b3c-0d77-417b-b06c-065a9963a03a",
                                 "command": "EVENT_ACTOR_SHOW",
                                 "args": {
-                                    "actorId": "5c40bce2-2891-47c8-9593-c13b40362948"
+                                    "actorId": "737f4efc-037c-4d02-8f3c-0b1ab24c6707"
                                 }
                             },
                             {
@@ -47008,12 +47029,26 @@
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
                                     "variable": "17",
-                                    "operator": ">=",
+                                    "operator": "==",
                                     "comparator": 2,
                                     "__collapseElse": false
                                 },
                                 "children": {
                                     "true": [
+                                        {
+                                            "id": "bfd7d9d7-5848-48bf-a78f-2d46f9edba49",
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "5c40bce2-2891-47c8-9593-c13b40362948"
+                                            }
+                                        },
+                                        {
+                                            "id": "b8d5d73c-8873-4432-8e45-2ccb3cf5d3a0",
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "280d3c44-a8df-49b5-8ae9-71f5c173247f"
+                                            }
+                                        },
                                         {
                                             "id": "e1ff426b-ebf5-45e2-9582-43d7ba5d84ea",
                                             "command": "EVENT_END"
@@ -47025,7 +47060,7 @@
                                             "command": "EVENT_IF_VALUE",
                                             "args": {
                                                 "variable": "17",
-                                                "operator": ">=",
+                                                "operator": "==",
                                                 "comparator": 1,
                                                 "__collapseElse": false
                                             },
@@ -50085,8 +50120,8 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 446,
-        "worldScrollY": 0,
+        "worldScrollX": 308,
+        "worldScrollY": 2,
         "zoom": 271,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
