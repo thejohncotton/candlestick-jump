@@ -10419,6 +10419,14 @@
                                 }
                             },
                             {
+                                "id": "10600e06-ddc1-4913-878b-c390b5d9b90d",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "speed": "4"
+                                }
+                            },
+                            {
                                 "id": "674254e8-d412-4264-8e67-acc1c9f88727",
                                 "command": "EVENT_END"
                             }
@@ -47643,7 +47651,7 @@
                     "x": 1,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 },
                 {
                     "name": "Two Life",
@@ -47669,7 +47677,7 @@
                     "x": 3,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 },
                 {
                     "name": "Three Life",
@@ -47695,7 +47703,7 @@
                     "x": 5,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 }
             ],
             "triggers": [
@@ -54375,7 +54383,7 @@
                     "x": 1,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 },
                 {
                     "name": "Two Life",
@@ -54396,7 +54404,7 @@
                     "x": 3,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 },
                 {
                     "name": "Three Life",
@@ -54417,7 +54425,7 @@
                     "x": 5,
                     "y": 1,
                     "paletteId": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-                    "isPinned": true
+                    "isPinned": false
                 },
                 {
                     "name": "Torch Stand",
@@ -56449,8 +56457,8 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 531,
-        "worldScrollY": 3967,
+        "worldScrollX": 722,
+        "worldScrollY": 3472,
         "zoom": 285.5,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
