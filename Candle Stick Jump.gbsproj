@@ -47118,8 +47118,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "e5d092ad-9b91-45c1-bc0e-aa0c927c3cd0",
-            "x": 295.80497925311204,
-            "y": 1246.5548999349533,
+            "x": 294.0536657679982,
+            "y": 1240.2501713885433,
             "actors": [
                 {
                     "name": "Candlestick 1",
@@ -47142,6 +47142,17 @@
                             },
                             "children": {
                                 "script": [
+                                    {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
                                     {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
@@ -47311,6 +47322,17 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
@@ -47428,6 +47450,17 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
@@ -47544,6 +47577,17 @@
                             },
                             "children": {
                                 "script": [
+                                    {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
                                     {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
@@ -53885,6 +53929,17 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
@@ -54054,6 +54109,17 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
@@ -54171,6 +54237,17 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
                                         "args": {
@@ -54287,6 +54364,17 @@
                             },
                             "children": {
                                 "script": [
+                                    {
+                                        "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "beep",
+                                            "pitch": 2,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": false
+                                        }
+                                    },
                                     {
                                         "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                                         "command": "EVENT_IF_VALUE",
@@ -56219,6 +56307,17 @@
             "actors": {},
             "script": [
                 {
+                    "id": "56344a36-9d3f-46a9-8d17-0211956690d4",
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "beep",
+                        "pitch": 2,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": false
+                    }
+                },
+                {
                     "id": "77dfee39-0dd9-49e3-baed-753ad1ce91ce",
                     "command": "EVENT_IF_VALUE",
                     "args": {
@@ -56346,6 +56445,20 @@
             "_v": 1602972639342
         },
         {
+            "id": "631a8c3e-3189-4edb-9261-16fd48fdce52",
+            "name": "StardustMemories",
+            "filename": "StardustMemories.mod",
+            "settings": {},
+            "_v": 1602978084106
+        },
+        {
+            "id": "b7316b8d-01e5-4423-9694-4739670e69d1",
+            "name": "first",
+            "filename": "first.mod",
+            "settings": {},
+            "_v": 1603057295258
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
@@ -56457,8 +56570,8 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 722,
-        "worldScrollY": 3472,
+        "worldScrollX": 762,
+        "worldScrollY": 3370,
         "zoom": 285.5,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
