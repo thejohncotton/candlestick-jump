@@ -14,11 +14,11 @@ Most of the assets in this game are stock assets borrowed from the GB Studio Boi
 The biggest struggle in this process for me was making the music. I tried for several days to avoid penciling in every note in MilkyTracker (I'm on a mac). I tried using Midi, I tried syncing my external midi devices, and I tried many other apps in the process. The workflow I locked in on in the end was to use Milky Tracker as designed with the sounds provided in the template.mod file, but using an external midi keyboard to add the notes to each channel. The preview in GB studio is a really nice feature as the sounds are not 100% accurate between MilkyTracker and GBStudio.
 
 #### Key Takeaways:
-##### 1. Aesthetic is everything.
+##### 1. Aesthetic is everything
 Creating an awesome aesthetic is likely the most challenging part of creating a game in GB Studio. We did not achieve anything unique, but the next attempt will have a heavy focus on aesthetic.
 
 ##### 2. D.R.Y. (Don't repeat yourself)
-A foundational principal of Software Design is to avoid duplicating logic.Custom Events are an amazing way to avoid repeating logic throughout levels. Finding yourself using the same logic multiple times? Consider using a Custom Event to handle this logic. Then you can update in one place, and it will automatically update everywhere.
+A foundational principal of Software Design is to avoid duplicating logic. Custom Events are an amazing way to avoid repeating logic throughout levels. Finding yourself using the same logic multiple times? Consider using a Custom Event to handle this logic. Then you can update in one place, and it will automatically update everywhere.
 I started off with a ton of duplication, and my last refactor had me removing about 80% of my scripts because I could accomplish the same thing inside a custom event, as well as using collision groups.
 
 ##### 3.  Version Control (Never lose a line of code)
